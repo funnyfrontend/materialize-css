@@ -1,0 +1,147 @@
+/*!
+ * Funny Frontend (http://funnyfrontend.com)
+ * Copyright 2014-2015
+ */
+
+html {
+    font-size: 16px
+}
+
+header {
+    text-align: center;
+    padding: 2em;
+}
+
+header,
+main,
+footer {
+    padding-left: 240px;
+}
+
+header .logo {
+    margin-left: 20px
+}
+
+h1 {
+    font-size: 1.5rem;
+    line-height: 25px
+}
+
+header .btn-floating {
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    top: 58px;
+}
+
+header nav {
+    box-shadow: none;
+    width: 100%;
+}
+
+header nav ul li a {
+    position: relative;
+    color: #fff;
+    letter-spacing: -1px;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1.7rem;
+    margin: 0 25px;
+}
+
+.button-collapse {
+    margin-left: 25px;
+}
+
+ul.side-nav.fixed a {
+    color: whitesmoke;
+}
+
+ul.side-nav.fixed a:hover {
+    color: black;
+}
+
+li {
+    list-style-type: none;
+}
+
+section {
+    padding: 4% 0 4% 0;
+}
+
+#portfolio,
+#habilidades,
+#contacto {
+    border-top: 8px solid rgba(0, 0, 0, 0.1);
+}
+
+section .col {
+    margin-bottom: 24px;
+}
+
+section h4 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+section hr {
+    width: 40px;
+    margin-bottom: 45px;
+    border: 1px solid
+}
+
+.portfolio .portfolio-holder {
+    clear: both;
+    text-align: center;
+}
+
+.portfolio img, .habilidades li {
+    -ms-filter: "progid:DXImageTransform@mixin Microsoft@mixin Alpha(Opacity=${iefactor})";
+    filter: "alpha(opacity=(${iefactor}))";
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+}
+
+.portfolio img {
+    width: 33%;
+    display: inline-block;
+    float: left;
+}
+
+.habilidades i {
+    color: #ee6e73;
+    font-size: 7rem;
+    display: block;
+}
+
+footer.page-footer {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+/*** RESPONSIVO ***/
+
+@media only screen and (max-width: 992px) {
+    header ul.side-nav li a {
+        font-size: 1.7rem
+    }
+    header,
+    main,
+    footer {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .portfolio img {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 467px) {
+    .portfolio img {
+        width: 100%;
+    }
+}

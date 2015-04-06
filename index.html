@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Materialize CSS Tutorial</title>
+    <meta charset="UTF-8">
+    <!-- Le decimos al navegador que nuestra web esta optimizada para moviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <!-- Cargamos el CSS -->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/custom.css" />
+</head>
+
+<body>
+    <header class="orange lighten-2 z-depth-1">
+        <nav class="top-nav orange lighten-2">
+            <div class="nav-wrapper">
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+                <ul class="side-nav fixed grey darken-4" id="mobile-demo">
+                    <li><a href="#portfolio" class="waves-effect">Portfolio</a>
+                    </li>
+                    <li><a href="#sobremi" class="waves-effect">Sobre mí</a>
+                    </li>
+                    <li><a href="#habilidades" class="waves-effect">Habilidades</a>
+                    </li>
+                    <li><a href="#contacto" class="waves-effect">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <img src="img/retratos-pixelart.svg" alt="Retratos Pixelart" class="logo responsive-img">
+        <h1 class="white-text">Retratos e ilustraciones con <strong>pixelart</strong></h1>
+
+
+
+        <a href="#portfolio" class="btn-floating btn-large waves-effect waves-light teal lighten-1">
+            <i class="mdi-navigation-expand-more"></i>
+        </a>
+    </header>
+    <main>
+        <section id="portfolio" class="portfolio teal lighten-3">
+            <div class="container">
+                <h4 class="teal-text">portfolio</h4>
+                <hr class="teal-text">
+                <div class="row">
+                    <div class="col s12 m12 l12 portfolio-holder">
+                        <div><img class="materialboxed" src="img/sample.jpg">
+                        </div>
+                        <div><img class="materialboxed" src="img/sample.jpg">
+                        </div>
+                        <div><img class="materialboxed" src="img/sample.jpg">
+                        </div>
+                        <div><img class="materialboxed" src="img/sample.jpg">
+                        </div>
+                        <div><img class="materialboxed" src="img/sample.jpg">
+                        </div>
+                        <div><img class="materialboxed" src="img/sample.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobremi" class="sobremi parallax-container">
+            <div class="parallax"><img src="img/parallax.jpg" alt="">
+            </div>
+            <div class="container">
+                <h4 class="deep-orange-text text-darken-4">sobre mí</h4>
+                <hr class="deep-orange-text text-darken-4">
+                <div class="row">
+                    <div class="col s12 center">
+                        <div class="card small blue-grey darken-1">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/sobremi.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Mr. 8-Bits <i class="mdi-navigation-more-vert right"></i></span>
+                                <p>
+                                    <a href="#">twitter</a>
+                                    <a href="#">facebook</a>
+                                </p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Card Title <i class="mdi-navigation-close right"></i></span>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades" class="habilidades pink lighten-3">
+            <div class="container">
+                <h4 class="pink-text">habilidades</h4>
+                <hr class="pink-text">
+                <div class="row">
+                    <ul>
+                        <li>
+                            <div class="col s12 m4">
+                                <div class="center">
+                                    <i class="pink-text mdi-image-flash-on"></i>
+                                    <h5>Lorem</h5>
+                                    <p class="light center">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="col s12 m4">
+                                <div class="center">
+                                    <i class="pink-text mdi-action-settings-ethernet"></i>
+                                    <h5>Ipsum</h5>
+                                    <p class="light center">
+                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="col s12 m4">
+                                <div class="center">
+                                    <i class="pink-text mdi-hardware-gamepad"></i>
+                                    <h5>Dolor</h5>
+                                    <p class="light center">
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contacto">
+            <div class="container">
+                <h4>contacto</h4>
+                <hr>
+                <div class="row">
+                    <div class="col s12 m7">
+                        <div class="row">
+                            <form class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <i class="mdi-action-account-circle prefix"></i>
+                                        <input id="first_name" type="text" class="validate">
+                                        <label for="first_name">Nombre</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <input id="last_name" type="text" class="validate">
+                                        <label for="last_name">Apellido</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <i class="mdi-communication-email prefix"></i>
+                                        <input id="email" type="email" class="validate">
+                                        <label for="email">E-Mail</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <i class="mdi-communication-comment prefix"></i>
+                                        <textarea id="mensaje" class="materialize-textarea" required></textarea>
+                                        <label for="mensaje">Mensaje</label>
+                                    </div>
+                                </div>
+
+                                <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+                                    <i class="mdi-content-send right"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col s12 m4 offset-m1 contact-holder">
+                        <h6 class="mdi-action-home">Dirección</h6>
+                        <p>C/Megadrive, Nº7</p>
+                        <h6 class="mdi-hardware-phone-android">Móvil</h6>
+                        <p>999 999 999</p>
+                        <h6 class="mdi-action-open-in-browser">Web</h6>
+                        <p>funnyfrontend.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer orange lighten-2">
+        <div class="footer-copyright">
+            <div class="container">
+                © 2015 Funny Frontend
+                <a class="grey-text text-lighten-4 right" href="http://funnyfrontend.com/">Web</a>
+            </div>
+        </div>
+    </footer>
+    <!-- Cargamos jQuery y materialize js -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            //Menú responsivo
+            $(".button-collapse").sideNav();
+
+            //Animaciones
+            var options = [
+                {
+                    selector: '.portfolio-holder img',
+                    offset: 0,
+                    callback: 'fadeInImage(".portfolio-holder img")'
+                },
+                {
+                    selector: '.habilidades li',
+                    offset: 0,
+                    callback: 'showStaggeredList(".habilidades ul")'
+                }
+                       ];
+            scrollFire(options);
+
+            //Parallax
+            $('.parallax').parallax();
+
+            //Scroll
+            $('section').scrollSpy();
+        });
+    </script>
+</body>
+
+</html>
